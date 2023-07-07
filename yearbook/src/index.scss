@@ -105,12 +105,18 @@ body{
     background-color: #e8e7e7;
     z-index: 4;
     outline: thin solid black;
+    display: grid;
     @include xs{
         min-width: 100%;
         min-height: 75%;
+        grid-template-columns: 100% ;
+        //margin-left: 2rem;
+        //padding: 1rem;
+        grid-template-rows: 35% 35% 35%; 
+        column-gap: 10px;
     };
     @include lg{
-        display: grid;
+        
         min-width: 75%;
         min-height: 100%;
         grid-template-columns: 29.5% 29.5% 29.5%;
@@ -126,7 +132,14 @@ body{
 
 .student{
     background: url(./assets/student.jpg);
-    background-size: contain;
+    @include xs{
+        background-size: contain;
+        background-position: center;
+        background-repeat: no-repeat
+    };
+    @include lg{
+        background-size: contain;
+    };
 }
 
 .nursery-head{

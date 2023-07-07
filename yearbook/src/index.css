@@ -147,19 +147,25 @@ body {
   background-color: #e8e7e7;
   z-index: 4;
   outline: thin solid black;
+  display: -ms-grid;
+  display: grid;
 }
 
 @media (min-width: 0px) {
   .section-body {
     min-width: 100%;
     min-height: 75%;
+    -ms-grid-columns: 100%;
+        grid-template-columns: 100%;
+    -ms-grid-rows: 35% 35% 35%;
+        grid-template-rows: 35% 35% 35%;
+    -webkit-column-gap: 10px;
+            column-gap: 10px;
   }
 }
 
 @media (min-width: 960px) {
   .section-body {
-    display: -ms-grid;
-    display: grid;
     min-width: 75%;
     min-height: 100%;
     -ms-grid-columns: 29.5% 29.5% 29.5%;
@@ -177,7 +183,20 @@ body {
 
 .student {
   background: url(./assets/student.jpg);
-  background-size: contain;
+}
+
+@media (min-width: 0px) {
+  .student {
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+}
+
+@media (min-width: 960px) {
+  .student {
+    background-size: contain;
+  }
 }
 
 .nursery-head {
