@@ -1199,10 +1199,16 @@
   background-position: center;
 }
 
+.close {
+  font-size: 1.5rem;
+  padding: 1rem;
+  text-decoration: underline;
+}
+
 .director-modal {
   width: 100%;
   height: 100%;
-  background-color: grey;
+  background-color: gainsboro;
 }
 
 .mobile-principal {
@@ -1247,7 +1253,7 @@
 .headboy-modal {
   width: 100%;
   height: 100%;
-  background-color: yellow;
+  background-color: gainsboro;
 }
 
 .mobile-headgirl {
