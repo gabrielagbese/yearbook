@@ -291,7 +291,10 @@ Athletics are of utmost importance at Light Way Academy, evident in the boys' fo
 						<div className='slide5'></div>
 					</Slide>
 				</div>
-				<div className='mobile-footer'></div>
+				<div className='mobile-footer'>
+					<p>Copyright, Lightway Academy 2023.</p>
+					
+				</div>
 			</div>
 		</>
 	)
