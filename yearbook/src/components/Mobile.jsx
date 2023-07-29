@@ -1,4 +1,5 @@
 import { React, useRef } from 'react'
+import { Slide } from 'react-slideshow-image';
 
 function Mobile() {
 
@@ -271,11 +272,25 @@ I have always entered the school gate with a feeling of being cared for as if I 
 							<div className='mobile-rec-item-img ath-thumb' onClick={openAth}></div>
 							<dialog className='mobile-rec-dialog' ref={athDialogRef}>
 								<p onClick={closeAth} className='close'>Close</p>
+								<p className='rec-dialog-header'>Athletics</p>
+								<div className='rec-dialog-first-pic ath-pic'></div>
+								<p className='rec-dialog-text '>
+Athletics are of utmost importance at Light Way Academy, evident in the boys' football team's undefeated record in interschool matches. Students routinely win medals in various competitions, from football to track, basketball, and martial arts. The academy's commitment to sports and the students' dedication to excelling in their chosen disciplines are clearly reflected in these impressive results.</p>        
+								<div className='rec-dialog-first-pic ath-pic2'></div>
+								<div className='rec-dialog-first-pic ath-pic3'></div>
 							</dialog>
 						</div>
 					</div>
 				</div>
-				<div className='mobile-gallery'></div>
+				<div className='mobile-gallery'>
+					<p className='gallery-text'>Gallery</p>
+					<Slide >
+						<div className='slide2'></div>
+						<div className='slide3'></div>
+						<div className='slide4'></div>
+						<div className='slide5'></div>
+					</Slide>
+				</div>
 				<div className='mobile-footer'></div>
 			</div>
 		</>
