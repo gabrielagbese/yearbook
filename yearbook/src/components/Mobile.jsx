@@ -62,6 +62,7 @@ function Mobile() {
 						
 					</div>
 				</div>
+				<div className='welcome-space'>Welcome.</div>
 				<div className='mobile-speeches'>
 
 					<div className='mobile-director' >
@@ -70,7 +71,7 @@ function Mobile() {
 								<p className='speech-title'>Director's Address</p>
 								<p className='speech-author'>Barr  &#40;Mrs.&#41; Joyce Agbese, <br />Executive Director</p>
 							</div>
-							<div className='speech-image'></div>
+							<div className='speech-image director-image'></div>
 						</div>
 						<p className='speech-external'>Dear graduates,
 
@@ -89,7 +90,7 @@ function Mobile() {
 								<p className='speech-title'>Principal's Advice</p>
 								<p className='speech-author'>Mr. David Latifu, <br />Principal</p>
 							</div>
-							<div className='speech-image'></div>
+							<div className='speech-image mobile-principal-image'></div>
 						</div>
 						<div>
 							<ol className='advice-ol'>
@@ -113,7 +114,7 @@ function Mobile() {
 								<p className='speech-title'>Headboy's Speech</p>
 								<p className='speech-author'>Joseph Emmanuel, <br />Outgoing Headboy</p>
 							</div>
-							<div className='speech-image'></div>
+							<div className='speech-image mobile-headboy-image'></div>
 						</div>
 						<p className='speech-external'>Warm greetings to all, I would like to use this opportunity to appreciate and thank my God for without him I would not be here today, the Director, the Principal Vice Principals and the school management for all my years till this very moment in this prestigious and amazing school.</p>
 						<button onClick={openHeadboyModal} className='read-more'>read more</button>
@@ -128,7 +129,7 @@ function Mobile() {
 								<p className='speech-title'>Headgirl's Speech</p>
 								<p className='speech-author'>Tehillah James, <br />Outgoing Headgirl</p>
 							</div>
-							<div className='speech-image'></div>
+							<div className='speech-image mobile-headgirl-image'></div>
 						</div>
 						<p className='speech-external'>Good day Director, principal, parents, teachers and students of Lightway Academy, friends and fellow graduating learners.
 

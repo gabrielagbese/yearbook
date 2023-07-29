@@ -1065,10 +1065,21 @@ font-size: 2rem;
     color: #555;
 }
 
+.welcome-space{
+    width: 100%;
+    height: 30vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2.5rem;
+    font-weight: 600;
+}
+
 .speech-image{
     width: 60%;
     height: 100%;
     background-color: #555;
+    
 }
 
 .mobile-director{
@@ -1078,6 +1089,13 @@ font-size: 2rem;
     flex-direction: column;
     justify-content: space-between;
     //background-color: #094a36;
+}
+
+.director-image{
+    background: url(https://drive.google.com/uc?export=view&id=1vzGwgDPMk0whTXTLB_4NrCcZi58LYV0b);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
 }
 
 .director-modal{
@@ -1093,6 +1111,14 @@ font-size: 2rem;
     border-top: thin solid black;
     border-bottom:3px solid black ;
     //background-color: aqua;
+}
+
+.mobile-principal-image{
+    background-color: black;
+    background: url(./assets/mrdave.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position-y: 20%;
 }
 
 .advice-ol{
@@ -1111,6 +1137,14 @@ font-size: 2rem;
     //background-color: #094a36;
 }
 
+.mobile-headboy-image{
+    background-color: black;
+    background: url(./assets/hbp.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position-y: 20%;
+}
+
 .headboy-modal{
     width: 100%;
     height: 100%;
@@ -1124,6 +1158,14 @@ font-size: 2rem;
     margin-bottom: 30px;
     border-top: thin solid black;
     //background-color: #094a36;
+}
+
+.mobile-headgirl-image{
+    background-color: black;
+    background: url(./assets/hgr.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position-y: 10%;
 }
 
 .headgirl-modal{
