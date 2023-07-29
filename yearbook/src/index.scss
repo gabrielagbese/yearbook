@@ -1279,8 +1279,10 @@ font-size: 2rem;
 .mobile-rec-item{
     width: 100%;
     height: 33%;
-    border: thin solid black;
+    border: 2px solid black;
+    box-sizing: border-box;
     display: flex;
+    background-color: gainsboro;
 }
 
 .mobile-rec-item-reverse{
@@ -1300,7 +1302,15 @@ font-size: 2rem;
     justify-content: start;
     padding-left: 1rem;
     font-weight: 500;
-    border-right: thin solid black;
+    text-decoration: underline;
+    text-decoration-color: rgba(0, 0, 0, 0.126); 
+    border-right: 2px solid black;
+}
+
+.mobile-rec-dialog{
+    width: 100%;
+    height: 90%;
+    margin-top: 10%;
 }
 
 .mobile-rec-item-reverse > .mobile-rec-item-name{
@@ -1411,7 +1421,7 @@ font-size: 2rem;
 }
 
 .mun-thumb{
-    background: url(./assets/mun3.jpg);
+    background: url(./assets/mun2.jpg); 
     background-size: cover; 
     background-position: center;
     width: 80%;

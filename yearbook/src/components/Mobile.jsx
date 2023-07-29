@@ -244,26 +244,26 @@ I have always entered the school gate with a feeling of being cared for as if I 
 							<div className='mobile-rec-item-name' onClick={openKart}>FIA Karting Champions</div>
 							<div className='mobile-rec-item-img kart-thumb' onClick={openKart} ></div>
 							<dialog className='mobile-rec-dialog' ref={kartDialogRef}>
-								<p onClick={closeKart}>kart</p>
+								<p onClick={closeKart} className='close'>Close</p>
 							</dialog>
 						</div>
 						<div className='mobile-rec-item' >
 							<div className='mobile-rec-item-name' onClick={openMun}>Model United Nations</div>
 							<div className='mobile-rec-item-img mun-thumb' onClick={openMun}></div>
 							<dialog className='mobile-rec-dialog' ref={munDialogRef}>
-								<p onClick={closeMun}>mun</p>
+								<p onClick={closeMun} className='close'>Close</p>
 							</dialog>
 						</div>
 						<div className='mobile-rec-item' >
 							<div className='mobile-rec-item-name' onClick={openAth}>Athletics</div>
 							<div className='mobile-rec-item-img ath-thumb' onClick={openAth}></div>
 							<dialog className='mobile-rec-dialog' ref={athDialogRef}>
-								<p onClick={closeAth}>ath</p>
+								<p onClick={closeAth} className='close'>Close</p>
 							</dialog>
 						</div>
 					</div>
 				</div>
-				<div className='mobile-gallery'>gallery</div>
+				<div className='mobile-gallery'></div>
 				<div className='mobile-footer'></div>
 			</div>
 		</>
