@@ -54,7 +54,9 @@ function Mobile() {
 	}
 	return (
 		<>
-			<div className='mobile-nav'>nav</div>
+			<div className='mobile-nav'>
+				<div className='lwa-mobile-icon'></div> 
+			</div>
 			<div className='mobile-wrapper'>
 				<div className='mobile-hero'>
 					<div className='hero-top'>Lightway Academy Senior Class Of 2023</div>
@@ -245,6 +247,11 @@ I have always entered the school gate with a feeling of being cared for as if I 
 							<div className='mobile-rec-item-img kart-thumb' onClick={openKart} ></div>
 							<dialog className='mobile-rec-dialog' ref={kartDialogRef}>
 								<p onClick={closeKart} className='close'>Close</p>
+								<p className='rec-dialog-header'>FIA Karting Champions</p>
+								<div className='rec-dialog-first-pic kart-pic'></div>
+								<p className='rec-dialog-text '>Lightway Academy students dominated and triumphed at the FIA Karting in Schools events, clinching multiple prizes. This was an event organized by the FIA (Fédération Internationale de l'Automobile). FIA serves as the governing body for motorsport, including Formula 1, ensuring fair competition and fostering the development of future racing champions.</p>
+								<div className='rec-dialog-first-pic kart-pic2'></div>
+								<div className='rec-dialog-first-pic kart-pic3'></div>
 							</dialog>
 						</div>
 						<div className='mobile-rec-item' >

@@ -1032,10 +1032,27 @@
   height: 10vh;
   border-bottom: 5px solid #21116F;
   background-color: black;
+  color: white;
   overflow-x: hidden;
   position: -webkit-sticky;
   position: sticky;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   top: 0;
+}
+
+.lwa-mobile-icon {
+  width: 15%;
+  aspect-ratio: 1.2/1;
+  background: url(./assets/logo-lwa.png);
+  background-size: cover;
 }
 
 .mobile-wrapper {
@@ -1441,6 +1458,43 @@
   width: 100%;
   height: 90%;
   margin-top: 10%;
+}
+
+.rec-dialog-header {
+  font-size: 2.5rem;
+  text-decoration: underline;
+}
+
+.rec-dialog-first-pic {
+  width: 70%;
+  margin-top: 5%;
+  margin-left: 15%;
+  height: 40%;
+  background-color: #094a36;
+  border: 2px solid black;
+}
+
+.rec-dialog-text {
+  font-size: 1.25rem;
+  margin-top: 2rem;
+}
+
+.kart-pic {
+  background: url(./assets/cart1.jpg);
+  background-size: cover;
+  background-position: 89%;
+}
+
+.kart-pic2 {
+  background: url(./assets/cart4.jpg);
+  background-size: cover;
+  background-position: 89%;
+}
+
+.kart-pic3 {
+  background: url(./assets/cart2.jpg);
+  background-size: cover;
+  background-position: 89%;
 }
 
 .mobile-rec-item-reverse > .mobile-rec-item-name {
