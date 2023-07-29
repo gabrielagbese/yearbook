@@ -284,7 +284,7 @@ function Mobile() {
 				</div>
 				<div className='mobile-gallery'>
 					<p className='gallery-text'>Gallery</p>
-					<Slide >
+					<Slide>
 						<div className='slide2'></div>
 						<div className='slide3'></div>
 						{/* <div className='slide4'></div> */}
