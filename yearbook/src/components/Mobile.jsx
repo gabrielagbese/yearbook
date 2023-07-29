@@ -287,8 +287,20 @@ Athletics are of utmost importance at Light Way Academy, evident in the boys' fo
 					<Slide >
 						<div className='slide2'></div>
 						<div className='slide3'></div>
-						<div className='slide4'></div>
+						{/* <div className='slide4'></div> */}
 						<div className='slide5'></div>
+						<div className='slide6'></div>
+						<div className='slide7'></div>
+						<div className='slide8'></div>
+						<div className='slide9'></div>
+						<div className='slide10'></div>
+						<div className='slide11'></div>
+						<div className='slide12'></div>
+						<div className='slide13'></div>
+						<div className='slide14'></div>
+						<div className='slide15'></div>
+						<div className='slide16'></div>
+						<div className='slide17'></div>
 					</Slide>
 				</div>
 				<div className='mobile-footer'>
