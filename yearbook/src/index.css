@@ -1531,4 +1531,28 @@
   background: url(./assets/20.jpg);
   background-size: cover;
 }
+
+.kart-thumb {
+  background: url(./assets/cart1.jpg);
+  background-size: cover;
+  background-position: center;
+  width: 80%;
+  height: 100%;
+}
+
+.mun-thumb {
+  background: url(./assets/mun3.jpg);
+  background-size: cover;
+  background-position: center;
+  width: 80%;
+  height: 100%;
+}
+
+.ath-thumb {
+  background: url(./assets/slide3.jpg);
+  background-size: cover;
+  background-position: center;
+  width: 80%;
+  height: 100%;
+}
 /*# sourceMappingURL=index.css.map */

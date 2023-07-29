@@ -242,7 +242,7 @@ I have always entered the school gate with a feeling of being cared for as if I 
 
 						<div className='mobile-rec-item' >
 							<div className='mobile-rec-item-name' onClick={openKart}>FIA Karting Champions</div>
-							<div className='mobile-rec-item-img' onClick={openKart}></div>
+							<div className='mobile-rec-item-img kart-thumb' onClick={openKart} ></div>
 							<dialog className='mobile-rec-dialog' ref={kartDialogRef}>
 								<p onClick={closeKart}>kart</p>
 								a
@@ -250,14 +250,14 @@ I have always entered the school gate with a feeling of being cared for as if I 
 						</div>
 						<div className='mobile-rec-item-reverse' >
 							<div className='mobile-rec-item-name' onClick={openMun}>Model United Nations</div>
-							<div className='mobile-rec-item-img' onClick={openMun}></div>
+							<div className='mobile-rec-item-img mun-thumb' onClick={openMun}></div>
 							<dialog className='mobile-rec-dialog' ref={munDialogRef}>
 								<p onClick={closeMun}>mun</p>
 							</dialog>
 						</div>
 						<div className='mobile-rec-item' >
 							<div className='mobile-rec-item-name' onClick={openAth}>Athletics</div>
-							<div className='mobile-rec-item-img' onClick={openAth}></div>
+							<div className='mobile-rec-item-img ath-thumb' onClick={openAth}></div>
 							<dialog className='mobile-rec-dialog' ref={athDialogRef}>
 								<p onClick={closeAth}>ath</p>
 							</dialog>
