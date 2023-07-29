@@ -58,7 +58,9 @@ function Mobile() {
 			<div className='mobile-wrapper'>
 				<div className='mobile-hero'>
 					<div className='hero-top'>Lightway Academy Senior Class Of 2023</div>
-					<div className='hero-image'>bbb</div>
+					<div className='hero-image'>
+						
+					</div>
 				</div>
 				<div className='mobile-speeches'>
 
