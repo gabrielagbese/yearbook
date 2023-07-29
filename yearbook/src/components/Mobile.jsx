@@ -259,6 +259,11 @@ I have always entered the school gate with a feeling of being cared for as if I 
 							<div className='mobile-rec-item-img mun-thumb' onClick={openMun}></div>
 							<dialog className='mobile-rec-dialog' ref={munDialogRef}>
 								<p onClick={closeMun} className='close'>Close</p>
+								<p className='rec-dialog-header'>Model United Nations</p>
+								<div className='rec-dialog-first-pic mun-pic'></div>
+								<p className='rec-dialog-text '>Lightway Academy students showcased their exceptional diplomacy and leadership skills, representing both the school and the city with pride at two prestigious Model United Nations conferences. First, at the national level, they made a remarkable impact at TAFMUN, and then Internationally in New York</p>        
+								<div className='rec-dialog-first-pic mun-pic2'></div>
+								<div className='rec-dialog-first-pic mun-pic3'></div>
 							</dialog>
 						</div>
 						<div className='mobile-rec-item' >
