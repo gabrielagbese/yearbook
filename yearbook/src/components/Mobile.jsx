@@ -151,59 +151,59 @@ function Mobile() {
 					<p className='classof-text'>Class of 2023</p>
 				</div>
 				<div className='mobile-students'>
-					<div className='mobile-student'>
-						<p className='mobile-student-name'>Aridja Lauraine ALI</p>
+					<div className='mobile-student ali'>
+						<p className='mobile-student-name '>Aridja Lauraine ALI</p>
 					</div>
-					<div className='mobile-student'>
-						<p className='mobile-student-name'>Oty Kamsi AJIRI</p>
+					<div className='mobile-student ajiri'>
+						<p className='mobile-student-name '>Oty Kamsi AJIRI</p>
 					</div>
-					<div className='mobile-student'>
-						<p className='mobile-student-name'>Emmanuel Chukwuemeka ASUQUO</p>
+					<div className='mobile-student asuquo'>
+						<p className='mobile-student-name '>Emmanuel Chukwuemeka ASUQUO</p>
 					</div>
-					<div className='mobile-student'>
-						<p className='mobile-student-name'>Shekwogaza Micah BAWAS</p>
+					<div className='mobile-student bawas'>
+						<p className='mobile-student-name '>Shekwogaza Micah BAWAS</p>
 					</div>
-					<div className='mobile-student'>
-						<p className='mobile-student-name'>Flourish Oshimame DANIA-LAWRENCE</p>
+					<div className='mobile-student dania'>
+						<p className='mobile-student-name '>Flourish Oshimame DANIA-LAWRENCE</p>
 					</div>
-					<div className='mobile-student'>
+					<div className='mobile-student edeh'>
 						<p className='mobile-student-name'>Nneoma Tiffany EDEH</p>
 					</div>
-					<div className='mobile-student'>
+					<div className='mobile-student emmanuel'>
 						<p className='mobile-student-name'>Joseph Chukwuemeka EMMANUEL</p>
 					</div>
-					<div className='mobile-student'>
+					<div className='mobile-student enoma'>
 						<p className='mobile-student-name'>Pearl Aiseosa ENOMA</p>
 					</div>
-					<div className='mobile-student'>
+					<div className='mobile-student habu'>
 						<p className='mobile-student-name'>Jedidiah Nandom HABU</p>
 					</div>
-					<div className='mobile-student'>
+					<div className='mobile-student harry'>
 						<p className='mobile-student-name'>Chibuzor Peter HARRY</p>
 					</div>
-					<div className='mobile-student'>
+					<div className='mobile-student james'>
 						<p className='mobile-student-name'>Tehillah Chinezem JAMES-OKOROAFOR</p>
 					</div>
-					<div className='mobile-student'>
+					<div className='mobile-student mubarak'>
 						<p className='mobile-student-name'>Laila Ali MUBARAK</p>
 					</div>
-					<div className='mobile-student'>
+					<div className='mobile-student solu'>
 						<p className='mobile-student-name'>Soluchukwu David NDUNELI</p>
 					</div>
-					<div className='mobile-student'>
+					<div className='mobile-student oseni'>
 						<p className='mobile-student-name'>Daniella Edward OSENI</p>
 					</div>
-					<div className='mobile-student'>
+					<div className='mobile-student pius'>
 						<p className='mobile-student-name'>Precious David PIUS</p>
 					</div>
-					<div className='mobile-student'>
+					<div className='mobile-student thomas'>
 						<p className='mobile-student-name'>Elizabeth Abrakassa THOMAS</p>
 					</div>
 					
-					<div className='mobile-student'>
+					<div className='mobile-student clinton'>
 						<p className='mobile-student-name'>Clinton Chinonso UWAKWE</p>
 					</div>
-					<div className='mobile-student'>
+					<div className='mobile-student duke'>
 						<p className='mobile-student-name'>Duchess Iquo YELLOW-DUKE</p>
 					</div>
 
