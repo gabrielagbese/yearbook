@@ -245,10 +245,9 @@ I have always entered the school gate with a feeling of being cared for as if I 
 							<div className='mobile-rec-item-img kart-thumb' onClick={openKart} ></div>
 							<dialog className='mobile-rec-dialog' ref={kartDialogRef}>
 								<p onClick={closeKart}>kart</p>
-								a
 							</dialog>
 						</div>
-						<div className='mobile-rec-item-reverse' >
+						<div className='mobile-rec-item' >
 							<div className='mobile-rec-item-name' onClick={openMun}>Model United Nations</div>
 							<div className='mobile-rec-item-img mun-thumb' onClick={openMun}></div>
 							<dialog className='mobile-rec-dialog' ref={munDialogRef}>
